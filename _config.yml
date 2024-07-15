@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yukai Jin / Personal homepage"
+title                    : "Yukai Jin"
 title_separator          : "-"
 name                     : &name "Yukai Jin"
 description              : &description "personal description"
@@ -21,12 +21,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "Profile.png"
+  name             : "Yukai Jin"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Japan"
+  employer         : "Hiroshima University"
   uri              : # URL
   email            : "none@example.org" 
 
