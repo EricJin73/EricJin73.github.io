@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yukai Jin"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Yukai Jin"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "Profile.png"
   name             : "Yukai Jin"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. Student"
   location         : "Japan"
   employer         : "Hiroshima University"
   uri              : # URL
