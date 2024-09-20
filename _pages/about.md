@@ -11,6 +11,6 @@ I'm a second year Ph.D. student from [SmaSo](https://www.hiroshima-u.ac.jp/en/sm
 
 I am very fortunate to be advised by [Prof. Sharifi](https://seeds.office.hiroshima-u.ac.jp/profile/en.a63149f0ebc98d0e520e17560c007669.html) of [URBES Lab](https://sites.google.com/view/asharifi/home), Hiroshima University. 
 
-You can find my CV here: [Yukai's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+You can find my CV here: [Yukai's Curriculum Vitae](../assets/Curriculum_Vitae_2.pdf).
 
 [Email](mailto:d233392@hiroshima-u.ac.jp) / [Orcid](https://orcid.org/0000-0001-8483-9601) / [Github](https://github.com/EricJin73) / [Wechat](../images/wechat.jpg)
