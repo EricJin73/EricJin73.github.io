@@ -13,4 +13,4 @@ I am very fortunate to be advised by [Prof. Sharifi](https://seeds.office.hirosh
 
 You can find my CV here: [Yukai's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
-[Orcid](https://orcid.org/0000-0001-8483-9601) / [Github](https://github.com/EricJin73) / [Wechat](../images/wechat.jpg)
+[Orcid](https://orcid.org/0000-0001-8483-9601) / [Github](https://github.com/EricJin73) / [Researchgate](https://www.researchgate.net/profile/Yukai-Jin-3)
