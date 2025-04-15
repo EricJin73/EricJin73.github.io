@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching Asistant | Yukai&#39;s Site</title>
+    <link>//localhost:1313/tags/teaching-asistant/</link>
+      <atom:link href="//localhost:1313/tags/teaching-asistant/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching Asistant</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Teaching Asistant</title>
+      <link>//localhost:1313/tags/teaching-asistant/</link>
+    </image>
+    
+    <item>
+      <title>Public Administration and Management</title>
+      <link>//localhost:1313/teaching/python/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/teaching/python/</guid>
+      <description>&lt;p&gt;A deep learning approach to analyze future urban emission pathways.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

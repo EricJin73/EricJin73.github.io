@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal Artical | Yukai&#39;s Site</title>
+    <link>//localhost:1313/publication_types/journal-artical/</link>
+      <atom:link href="//localhost:1313/publication_types/journal-artical/index.xml" rel="self" type="application/rss+xml" />
+    <description>Journal Artical</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Journal Artical</title>
+      <link>//localhost:1313/publication_types/journal-artical/</link>
+    </image>
+    
+    <item>
+      <title>Machine learning for predicting urban greenhouse gas emissions: A systematic literature review</title>
+      <link>//localhost:1313/publication/journal-article/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing particulate matter characteristics of the subway system: Case study of Guangzhou</title>
+      <link>//localhost:1313/publication/journal-article-pm/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/journal-article-pm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carbon emission prediction models: A review</title>
+      <link>//localhost:1313/publication/journal-article-stoten/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/journal-article-stoten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thermography evaluation of defect characteristics of building envelopes in urban villages in Guangzhou, China</title>
+      <link>//localhost:1313/publication/journal-article-thermal/</link>
+      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/journal-article-thermal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

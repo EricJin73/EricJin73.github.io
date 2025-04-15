@@ -1,31 +1,34 @@
 ---
-title: Example Talk
+title: | 
+  Predicting long-term building energy consumption using multiple feature clustering and machine learning: applications in Shanghai, China
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event:  16th International Conference on Applied Energy (ICAE2024)
+event_url: https://applied-energy.org/icae2024/
 
-location: Hugo Blox Builder HQ
+location: TOKI MESSE
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+#  street: 450 Serra Mall
+  city: Niigata
+  region: Japan
+#  postcode: '94305'
+  country: Japan
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+#summary: An example talk using Hugo Blox Builder's Markdown slides feature.
+abstract: |
+  As  urbanization progresses,  global  building  energy consumption is on the rise, emphasizing the need for a dependable energy consumption prediction model. This study presents a multi-stage machine learning approach comprising a clustering decomposition model (GMM), a prediction model (XGBoost), and an optimization model (PSO). Prior to clustering, the RF model evaluates the significance of various features influencing building energy consumption.  GMM  partitions  the  data  into  distinct clusters,  while  the  PSO  model  fine-tunesthe  initial parameters of XGBoost. Validation is conducted using a dataset comprising 458,836 hourly records spanning three years from 20 office buildings in Shanghai, China.The average hourly energy consumption for all buildings is 79.2 kWh, but there is significant variation, with a standard deviation of 126.3 kWh.The prediction results indicate that  the  proposed  model  consistently  achieves  an  R² exceeding 0.85 across diverse test sets, demonstrating robust  accuracy  and  generalization  capabilities.  These findings offer valuable insights for future building design and energy management strategies.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2024-09-01T13:00:00Z'
+date_end: '2024-09-05T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-10-20T00:00:00Z'
 
 authors:
   - admin
+  - Ayyoob Sharifi
 
 tags: []
 
@@ -41,10 +44,10 @@ image:
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: 'https://github.com'
-url_pdf: ''
-url_slides: 'https://slideshare.net'
-url_video: 'https://youtube.com'
+url_code: ''
+url_pdf: 'https://doi.org/10.46855/energy-proceedings-11538'
+url_slides: ''
+url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -61,15 +64,3 @@ slides: ""
 projects:
   - example
 ---
-
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.

@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Yukai Jin
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yukai
+last_name: Jin
 
 # Status emoji
 status:
@@ -20,92 +20,65 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: New Spring Fellowship
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Hiroshima University
+    url: https://www.hiroshima-u.ac.jp/en
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+  - icon: envelope
+    url: 'mailto:d233392@hiroshima-u.ac.jp'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  - icon: brands/orcid
+    url: https://orcid.org/0000-0001-8483-9601
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/EricJin73/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/yukai-jin-452b772a0
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Climate Change
+  - Machine Learning
+  - Emission Scenarios
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD candidate
+    institution: Hiroshima University
+    date_start: 2023-10-01
+    date_end: 2026-08-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Supervised by [Prof Ayyoob Sharifi](https://seeds.office.hiroshima-u.ac.jp/profile/en.a63149f0ebc98d0e520e17560c007669.html). 
+      - Published 2 papers in Elsevier Q1 journals with 1 highly cited paper.
+      - Presented 1 paper at ICAE 2024 conference.      
+#    button:
+#      text: 'Read Thesis'
+#      url: 'https://example.com'
+  - area: MEng
+    institution: Guangdong University of Technology
+    date_start: 2020-09-01
+    date_end: 2023-06-30
     summary: |
-      GPA: 3.8/4.0
+      - Published 1 papers in Elsevier Q1 journals.
+      - Published 3 papers in Chinese journals.
+  - area: BEng
+    institution: Jiangxi Agricultral University
+    date_start: 2016-09-01
+    date_end: 2020-06-30
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Visiting Asistant Research
+    company_name: Yale University
+    company_url: 'https://www.yale.edu/'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2025-01-01
+    date_end: 2025-03-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Supervised by [Prof Karen Seto](https://environment.yale.edu/directory/faculty/karen-seto). 
+      - Built models on Predicting CO₂ emissions for global cities from 2021 to 2100
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -142,12 +115,12 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 65
+  - name: Japanese
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.

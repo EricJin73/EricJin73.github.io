@@ -18,18 +18,20 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: markdown
+    content:
+      title: "Awards"
+      text: |-
+        |               |                                       |
+        | ----------------- | -------------------------------------------------- |
+        | <small>2025</small>   | **HU Spring Award**               |
+        | <small>2024-26</small> | **New Spring Fellowship**       |
+        | <small>2023-24</small> | **SmaSo-X Scholarship**           |
+      username: admin
   - block: resume-skills
     content:
       title: Skills & Hobbies
       username: admin
     design:
       show_skill_percentage: false
-  - block: resume-awards
-    content:
-      title: Awards
-      username: admin
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
 ---

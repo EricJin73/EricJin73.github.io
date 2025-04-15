@@ -1,40 +1,42 @@
 ---
-title: "An example journal article"
+title: "Machine learning for predicting urban greenhouse gas emissions: A systematic literature review"
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- Ayyoob Sharifi
+#author_notes:
+#- "Equal contribution"
+#- "Equal contribution"
+date: "2025-03-26T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-03-26T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["journal artical"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Renewable and Sustainable Energy Reviews*"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: |
+  Greenhouse gases play a crucial role in shaping urban climate patterns and dynamics. Using machine learning methods offers opportunities for predicting greenhouse gas emissions in cities, both now and in the future. Here, we review 75 papers from 2003 to 2023 that utilized machine learning to forecast urban greenhouse gas emissions. We focus on two aspects: the models used and the driving factors of emissions. Across all models, R2 range from 0.5231 to 0.9989, MAPE range from 0.3017 % to 26.3 %. Hybrid and neural network models emerged as the most popular choices. The most common combinations were spatial hybrid models, primarily blending spatial models with machine learning predictions. Time series hybrid models mostly featured optimized models and machine learning prediction models. Hybrid models outperform single models in both R2 and MAPE. We propose three key recommendations to enhance the accuracy and reliability of future machine learning models: 1) Establish criteria for evaluating influential factors and model selection, 2) Enhance spatial prediction in machine learning by optimization models, and 3) Explore and compare how greenhouse gas prediction models perform across diverse urban settings.
+
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
-featured: false
+#tags:
+#- Source Themes
+#featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://doi.org/10.1016/j.rser.2025.115625
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -45,7 +47,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -64,12 +66,3 @@ projects: []
 slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
