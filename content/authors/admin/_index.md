@@ -156,4 +156,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Yukai Jin is a second-year Ph.D. student at Hiroshima University and a New Spring Research Fellow. He earned his master’s degree in Civil Engineering from Guangdong University of Technology, where he published two SCI papers and earned scholarships. At Hiroshima University, his Q1 SCI review on carbon emission prediction models has been cited 39 times, and he recently presented at the 16th International Conference on Applied Energy. His awards include the New Spring Fellowship, SmaSo-X Scholarship, and SmaSo-X Challenge Research Grant.
