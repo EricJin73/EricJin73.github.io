@@ -39,6 +39,7 @@ header:
 
 # Site footer
 footer:
+  show_powered_by: false
   copyright:
     notice: '© {year} Yukai. This work is licensed under {license}'
     license:
