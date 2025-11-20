@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yukai's Site</title><link>EricJin73.github.io/</link><atom:link href="EricJin73.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Yukai's Site</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>EricJin73.github.io/media/icon_hu7729264130191091259.png</url><title>Yukai's Site</title><link>EricJin73.github.io/</link></image><item><title>The website is officially launched!</title><link>EricJin73.github.io/news/2025-04-15-website-launched/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>EricJin73.github.io/news/2025-04-15-website-launched/</guid><description>&lt;p>We are pleased to announce the official launch of our website.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yukai's Site</title><link>EricJin73.github.io/</link><atom:link href="EricJin73.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Yukai's Site</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>EricJin73.github.io/media/icon_hu7729264130191091259.png</url><title>Yukai's Site</title><link>EricJin73.github.io/</link></image><item><title>Blogs</title><link>EricJin73.github.io/blogs/</link><pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate><guid>EricJin73.github.io/blogs/</guid><description/></item><item><title>The website is officially launched!</title><link>EricJin73.github.io/news/2025-04-15-website-launched/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>EricJin73.github.io/news/2025-04-15-website-launched/</guid><description>&lt;p>We are pleased to announce the official launch of our website.&lt;/p>
 &lt;p>The site provides information on our projects and research. Please feel free to browse and stay updated with our latest developments.&lt;/p></description></item><item><title>Machine learning for predicting urban greenhouse gas emissions: A systematic literature review</title><link>EricJin73.github.io/publication/journal-article/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>EricJin73.github.io/publication/journal-article/</guid><description/></item><item><title>Our Latest Paper Has Been Published in RSER!</title><link>EricJin73.github.io/news/2025-04-14-rser/</link><pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate><guid>EricJin73.github.io/news/2025-04-14-rser/</guid><description>&lt;p>We are excited to announce that our paper, &lt;em>Machine learning for predicting urban greenhouse gas emissions: A systematic literature review&lt;/em>, has been published in &lt;strong>Renewable and Sustainable Energy Reviews&lt;/strong> (Vol. 215, 2025, Article 115625). Authored by Yukai Jin and Ayyoob Sharifi, this review examines 75 studies from 2003 to 2023, focusing on the models used and the driving factors influencing urban greenhouse gas emissions.&lt;/p>
 &lt;p>&lt;strong>Key Findings:&lt;/strong>&lt;/p>
 &lt;ul>
@@ -183,7 +183,7 @@ console.log('code block');
 &lt;p>Hugo Blox supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-598271346" class="chart">&lt;/div>
+&lt;div id="chart-518762439" class="chart">&lt;/div>
 &lt;script>
 async function fetchChartJSON() {
 console.debug('Hugo Blox fetching chart JSON...')
@@ -199,7 +199,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart => {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-598271346', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-518762439', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
