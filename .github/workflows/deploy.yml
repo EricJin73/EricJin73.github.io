@@ -1,35 +1,34 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy static site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
-      # 第一步：检出仓库源码，包含子模块（如果使用了子模块）
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          submodules: true  # 如有子模块，请启用
-
-      # 第二步：设置 Hugo 环境
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.136.5'  # 根据需要设置 Hugo 版本
-          extended: true
-
-      # 第三步：构建静态网站
-      - name: Build site with Hugo
-        run: hugo --minify
-
-      # 第四步：部署到 GitHub Pages（gh-pages 分支）
+          path: .
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+        id: deployment
+        uses: actions/deploy-pages@v4
