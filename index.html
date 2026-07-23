@@ -12,19 +12,19 @@
 
 <header class="site-header">
   <nav class="nav">
-    <a class="nav-brand" href="index.html">Yukai Jin</a>
+    <a class="nav-brand" href="#top">Yukai Jin</a>
     <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
     <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="experience.html">Experience</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#teaching">Teaching</a></li>
     </ul>
   </nav>
 </header>
 
-<main class="container">
+<main class="container" id="top">
 
   <section class="hero">
     <img class="hero-avatar" src="images/avatar.png" alt="Portrait of Yukai Jin">
@@ -82,26 +82,172 @@
 
   <section class="bordered" id="publications">
     <div class="section-header">
-      <h2>Recent Publications</h2>
-      <a class="see-all" href="publications.html">See all &rarr;</a>
+      <h2>Publications</h2>
     </div>
 
     <div class="pub-item">
       <h3>Machine learning for predicting urban greenhouse gas emissions: A systematic literature review</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Renewable and Sustainable Energy Reviews</span> &middot; 2025</p>
+      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Renewable and Sustainable Energy Reviews</span>, Vol. 215, 2025</p>
+      <details class="pub-details">
+        <summary>Abstract</summary>
+        <p class="pub-abstract">Greenhouse gases play a crucial role in shaping urban climate patterns and dynamics. Using machine learning methods offers opportunities for predicting greenhouse gas emissions in cities, both now and in the future. Here, we review 75 papers from 2003 to 2023 that utilized machine learning to forecast urban greenhouse gas emissions. We focus on two aspects: the models used and the driving factors of emissions. Across all models, R² range from 0.5231 to 0.9989, MAPE range from 0.3017% to 26.3%. Hybrid and neural network models emerged as the most popular choices. We propose three key recommendations to enhance the accuracy and reliability of future machine learning models: (1) establish criteria for evaluating influential factors and model selection, (2) enhance spatial prediction in machine learning by optimization models, and (3) explore and compare how greenhouse gas prediction models perform across diverse urban settings.</p>
+      </details>
       <div class="pub-links"><a href="https://doi.org/10.1016/j.rser.2025.115625" target="_blank" rel="noopener">DOI</a></div>
     </div>
 
     <div class="pub-item">
       <h3>Analyzing particulate matter characteristics of the subway system: Case study of Guangzhou</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi, Zhisheng Li, Sirui Chen, Shitao Chen, Shanlun Zhao &middot; <span class="pub-journal">Case Studies in Chemical and Environmental Engineering</span> &middot; 2024</p>
+      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi, Zhisheng Li, Sirui Chen, Shitao Chen, Shanlun Zhao &middot; <span class="pub-journal">Case Studies in Chemical and Environmental Engineering</span>, 2024</p>
+      <details class="pub-details">
+        <summary>Abstract</summary>
+        <p class="pub-abstract">This study aims to: (1) evaluate the concentration distribution of particulate matter in the Guangzhou metro system; (2) compare particulate matter concentrations under different conditions, including time, season, location, subway lines, and sampling height; (3) compare the concentrations with existing research and propose future improvement measures. Spatial factors were significantly correlated with particulate matter concentration, and stratification of PM10 was identified at various heights in both carriages and platforms &mdash; the PM10 average concentration at 80cm is 14% higher than at 120cm and 13% higher than at 150cm. We suggest mitigation measures for particulate matter in both carriage and platform environments.</p>
+      </details>
       <div class="pub-links"><a href="https://doi.org/10.1016/j.cscee.2024.100953" target="_blank" rel="noopener">DOI</a></div>
     </div>
 
     <div class="pub-item">
       <h3>Carbon emission prediction models: A review</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi, Zhisheng Li, Sirui Chen, Suzhen Zeng, Shanlun Zhao &middot; <span class="pub-journal">Science of The Total Environment</span> &middot; 2024</p>
+      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi, Zhisheng Li, Sirui Chen, Suzhen Zeng, Shanlun Zhao &middot; <span class="pub-journal">Science of The Total Environment</span>, 2024</p>
+      <details class="pub-details">
+        <summary>Abstract</summary>
+        <p class="pub-abstract">Amidst growing concerns over the greenhouse effect, establishing effective Carbon Emission Prediction Models (CEPMs) is imperative for climate change mitigation. A review of 147 CEPM studies revealed three predominant functions &mdash; prediction, optimization, and prediction factor selection. Statistical models were the most prevalent (75 instances), followed by neural network models (21.8%), with a consistent rise in neural network usage from 2019 to 2022. A majority of CEPMs incorporated optimized approaches, with 94.4% utilizing metaheuristic models. We summarize the pros and cons of existing models, classify the factors that influence carbon emissions, clarify research objectives in CEPM, and assess model evaluation methods and the spatial/temporal scales of existing research.</p>
+      </details>
       <div class="pub-links"><a href="https://doi.org/10.1016/j.scitotenv.2024.172319" target="_blank" rel="noopener">DOI</a></div>
+    </div>
+
+    <div class="pub-item">
+      <h3>Thermography evaluation of defect characteristics of building envelopes in urban villages in Guangzhou, China</h3>
+      <p class="pub-meta">Zhisheng Li, Yukai Jin, Xiguan Liang, Jiangyi Zeng &middot; <span class="pub-journal">Case Studies in Construction Materials</span>, 2022</p>
+      <details class="pub-details">
+        <summary>Abstract</summary>
+        <p class="pub-abstract">In many cities, the building envelope is deteriorating and aging. A 3-day infrared thermography (IRT) experiment was conducted on 5 buildings (11 rooms) in an urban village in Guangzhou, China. Three types of building defects were found: conduction thermal defects, ventilation defects, and moisture. An improved temperature factor framework (ITF) is proposed to evaluate conduction thermal defects. Conduction thermal defects were the most common, occurring 28 times across five residential buildings, mainly at the joints of different walls and structures. Orientation was found to have an important effect on thermal defects, and thermal bridges were more likely to occur on extended floors built on the original building.</p>
+      </details>
+      <div class="pub-links"><a href="https://doi.org/10.1016/j.cscm.2022.e01373" target="_blank" rel="noopener">DOI</a></div>
+    </div>
+
+    <div class="pub-item">
+      <h3>Predicting long-term building energy consumption using multiple feature clustering and machine learning: applications in Shanghai, China</h3>
+      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; 16th International Conference on Applied Energy (ICAE2024), Niigata, Japan &middot; Sep 2024</p>
+      <details class="pub-details">
+        <summary>Abstract</summary>
+        <p class="pub-abstract">As urbanization progresses, global building energy consumption is on the rise, emphasizing the need for a dependable energy consumption prediction model. This study presents a multi-stage machine learning approach comprising a clustering decomposition model (GMM), a prediction model (XGBoost), and an optimization model (PSO). Validation is conducted using a dataset of 458,836 hourly records spanning three years from 20 office buildings in Shanghai, China. The proposed model consistently achieves an R² exceeding 0.85 across diverse test sets, offering insights for future building design and energy management strategies.</p>
+      </details>
+      <div class="pub-links"><a href="https://doi.org/10.46855/energy-proceedings-11538" target="_blank" rel="noopener">DOI</a></div>
+    </div>
+  </section>
+
+  <section class="bordered" id="projects">
+    <div class="section-header">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="card project-card">
+      <img src="images/projects/smaso-x.png" alt="SmaSo-X project">
+      <div>
+        <h3>SmaSo-X</h3>
+        <p>A deep learning approach to analyze future urban emission pathways.</p>
+        <div class="tags">
+          <span class="tag">Climate Change</span>
+        </div>
+        <p class="pub-links" style="margin-top:0.8rem;">
+          <a href="https://www.hiroshima-u.ac.jp/smart_society/news/85874" target="_blank" rel="noopener">Learn more &rarr;</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bordered" id="experience">
+    <div class="section-header">
+      <h2>Experience</h2>
+    </div>
+
+    <h3 style="font-size:1.05rem;">Work Experience</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="date">Jan 2025 &ndash; Mar 2025</div>
+        <h3>Visiting Assistant Research</h3>
+        <p class="place"><a href="https://www.yale.edu/" target="_blank" rel="noopener">Yale University</a></p>
+        <ul>
+          <li>Supervised by <a href="https://environment.yale.edu/directory/faculty/karen-seto" target="_blank" rel="noopener">Prof. Karen Seto</a>.</li>
+          <li>Built models predicting CO&#8322; emissions for global cities from 2021 to 2100.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="font-size:1.05rem; margin-top:1.8rem;">Education</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="date">Oct 2023 &ndash; Aug 2026</div>
+        <h3>PhD Candidate</h3>
+        <p class="place">Hiroshima University</p>
+        <ul>
+          <li>Supervised by <a href="https://seeds.office.hiroshima-u.ac.jp/profile/en.a63149f0ebc98d0e520e17560c007669.html" target="_blank" rel="noopener">Prof. Ayyoob Sharifi</a>.</li>
+          <li>Published 2 papers in Elsevier Q1 journals, including 1 highly cited paper.</li>
+          <li>Presented 1 paper at the ICAE 2024 conference.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="date">Sep 2020 &ndash; Jun 2023</div>
+        <h3>MEng</h3>
+        <p class="place">Guangdong University of Technology</p>
+        <ul>
+          <li>Published 1 paper in an Elsevier Q1 journal.</li>
+          <li>Published 3 papers in Chinese journals.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="date">Sep 2016 &ndash; Jun 2020</div>
+        <h3>BEng</h3>
+        <p class="place">Jiangxi Agricultural University</p>
+      </div>
+    </div>
+
+    <h3 style="font-size:1.05rem; margin-top:1.8rem;">Awards</h3>
+    <table class="awards-table">
+      <tr><td>2025</td><td><strong>HU Spring Award</strong></td></tr>
+      <tr><td>2024&ndash;26</td><td><strong>New Spring Fellowship</strong></td></tr>
+      <tr><td>2023&ndash;24</td><td><strong>SmaSo-X Scholarship</strong></td></tr>
+    </table>
+
+    <h3 style="font-size:1.05rem; margin-top:1.8rem;">Certificates</h3>
+    <table class="awards-table">
+      <tr><td>Nov 2023</td><td><a href="https://www.coursera.org/learn/neural-networks-deep-learning" target="_blank" rel="noopener"><strong>Neural Networks and Deep Learning</strong></a> &middot; Coursera</td></tr>
+      <tr><td>Jul 2023</td><td><a href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals" target="_blank" rel="noopener"><strong>Blockchain Fundamentals</strong></a> &middot; edX</td></tr>
+      <tr><td>Jan 2023</td><td><a href="https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r" target="_blank" rel="noopener"><strong>Object-Oriented Programming in R</strong></a> &middot; DataCamp</td></tr>
+    </table>
+
+    <div class="skill-groups" style="margin-top:1.8rem;">
+      <div>
+        <h3 style="font-size:1.05rem;">Skills &amp; Hobbies</h3>
+        <ul class="skill-list">
+          <li>Python</li>
+          <li>Data Science</li>
+          <li>SQL</li>
+          <li>Hiking</li>
+          <li>Cats</li>
+          <li>Photography</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size:1.05rem;">Languages</h3>
+        <ul class="skill-list">
+          <li>Chinese <span class="level">Native</span></li>
+          <li>English <span class="level">Professional</span></li>
+          <li>Japanese <span class="level">Intermediate</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="bordered" id="teaching">
+    <div class="section-header">
+      <h2>Teaching</h2>
+    </div>
+
+    <div class="card">
+      <h3 style="margin:0 0 0.3rem;">Public Administration and Management</h3>
+      <p class="pub-meta">Teaching Assistant &middot; Hiroshima University &middot; Oct 2024</p>
+      <div class="pub-links"><a href="https://momiji.hiroshima-u.ac.jp/syllabusHtml_en/2025_E50107_WMH01501_en.html" target="_blank" rel="noopener">Syllabus &rarr;</a></div>
     </div>
   </section>
 

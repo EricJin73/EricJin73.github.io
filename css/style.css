@@ -281,6 +281,11 @@ img {
 /* ---------- Sections ---------- */
 section {
   padding: 2.2rem 0;
+  scroll-margin-top: 70px;
+}
+
+#top {
+  scroll-margin-top: 0;
 }
 
 section.bordered {
