@@ -261,6 +261,10 @@ img {
   fill: currentColor;
 }
 
+.social-links a[aria-label="Email"] svg {
+  fill: none;
+}
+
 /* ---------- Tags / pills ---------- */
 .tags {
   display: flex;
