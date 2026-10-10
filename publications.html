@@ -6,22 +6,23 @@
 <title>Publications &middot; Yukai Jin</title>
 <meta name="description" content="Full list of publications by Yukai Jin.">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=1791710000">
 </head>
 <body>
 
 <header class="site-header">
   <nav class="nav">
-    <a class="nav-brand" href="index.html#top">Yukai Jin</a>
+    <div class="nav-tabs">
+      <a class="nav-tab active" data-tab="personal" href="index.html#top">Personal</a>
+      <a class="nav-tab" data-tab="datasets" href="index.html#datasets">Datasets</a>
+    </div>
     <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
     <ul class="nav-links">
-      <li><a href="index.html#top">Home</a></li>
+      <li><a href="index.html#news">News</a></li>
       <li><a href="index.html#publications">Publications</a></li>
-      <li><a href="index.html#talks">Talks</a></li>
-      <li><a href="index.html#grants">Grants</a></li>
-      <li><a href="index.html#awards">Awards</a></li>
+      <li><a href="index.html#honors">Honors &amp; Grants</a></li>
       <li><a href="index.html#experience">Experience</a></li>
-      <li><a href="index.html#teaching">Teaching</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -33,87 +34,111 @@
 
   <section class="bordered" id="publications">
     <div class="pub-item">
-      <h3>Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011–2024</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Scientific Data</span>, 2026, Article in Press</p>
-      <p class="pub-meta">Published online: <time datetime="2026-10-06">October 6, 2026</time></p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">We present a longitudinal dataset of passenger vehicle fleet composition for 71,715 Local Administrative Units across 14 European countries over 2011–2024. An XGBoost-based spatial prediction model allocates official national vehicle statistics to municipalities using GDP per capita, population, and road-masked nighttime light intensity. The dataset distinguishes battery electric, plug-in hybrid, fuel-cell electric, and other vehicles. Independent validation using Eurostat regional data and municipal data from Norway and Sweden yields R² values of 0.82–0.98, supporting comparative analysis of electric vehicle adoption and spatial disparities.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1038/s41597-026-08445-z" target="_blank" rel="noopener">DOI</a><a href="papers/jin-sharifi-2026-european-vehicle-fleets.pdf" target="_blank" rel="noopener">PDF</a></div>
+      <img class="pub-thumb" src="images/pubs/scidata.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011–2024</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Scientific Data</span>, 2026, Article in Press</p>
+        <p class="pub-meta">Published online: <time datetime="2026-10-06">October 6, 2026</time></p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">We present a longitudinal dataset of passenger vehicle fleet composition for 71,715 Local Administrative Units across 14 European countries over 2011–2024. An XGBoost-based spatial prediction model allocates official national vehicle statistics to municipalities using GDP per capita, population, and road-masked nighttime light intensity. The dataset distinguishes battery electric, plug-in hybrid, fuel-cell electric, and other vehicles. Independent validation using Eurostat regional data and municipal data from Norway and Sweden yields R² values of 0.82–0.98, supporting comparative analysis of electric vehicle adoption and spatial disparities.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1038/s41597-026-08445-z" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Diagnosing systematic overestimation and feature dependencies in data-driven predictions of urban CO₂ emissions in China</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Environmental Impact Assessment Review</span>, Vol. 123, 108770, 2027</p>
-      <p class="pub-meta">Published online: <time datetime="2026-10-06">October 6, 2026</time></p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">This study evaluates 18 machine learning algorithms using county-level CO₂ emissions in China from 2001 to 2020 and 41 socioeconomic, environmental, and energy features. Nearly all models systematically overestimate emissions across space and time. Feature-selection comparisons and bootstrap uncertainty analysis show that aggressive dimensionality reduction often harms performance, while retaining diverse features helps capture the complexity of urban emissions. CatBoost and LightGBM perform best, highlighting the need to diagnose and correct systematic prediction biases for reliable urban carbon management.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.eiar.2026.108770" target="_blank" rel="noopener">DOI</a><a href="papers/jin-sharifi-2027-urban-emissions-prediction.pdf" target="_blank" rel="noopener">PDF</a></div>
+      <img class="pub-thumb" src="images/pubs/eiar.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Diagnosing systematic overestimation and feature dependencies in data-driven predictions of urban CO₂ emissions in China</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Environmental Impact Assessment Review</span>, Vol. 123, 108770, 2027</p>
+        <p class="pub-meta">Published online: <time datetime="2026-10-06">October 6, 2026</time></p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">This study evaluates 18 machine learning algorithms using county-level CO₂ emissions in China from 2001 to 2020 and 41 socioeconomic, environmental, and energy features. Nearly all models systematically overestimate emissions across space and time. Feature-selection comparisons and bootstrap uncertainty analysis show that aggressive dimensionality reduction often harms performance, while retaining diverse features helps capture the complexity of urban emissions. CatBoost and LightGBM perform best, highlighting the need to diagnose and correct systematic prediction biases for reliable urban carbon management.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.eiar.2026.108770" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Heterogeneous urban decarbonization pathways revealed by typological and machine learning frameworks: A global analysis across Annex I cities</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Urban Climate</span>, Vol. 70, 103160, 2026</p>
-      <p class="pub-meta">Published online: <time datetime="2026-09-28">September 28, 2026</time></p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">We combine urban typological clustering with a context-aware FiLMSeq2Seq deep learning framework to project CO₂ emissions for 46,833 cities in Annex I countries through 2050 under Shared Socioeconomic Pathways. Five urban typologies exhibit distinct emission trajectories. Under the Business-As-Usual scenario, 31.5% of the 1,335 sprawling cities show emission growth, while moderate vertical cities contribute a total emission reduction of 798.2 Mt. These findings support strategies tailored to urban typology to realize cities’ decarbonization potential.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.uclim.2026.103160" target="_blank" rel="noopener">DOI</a><a href="papers/jin-sharifi-2026-urban-decarbonization.pdf" target="_blank" rel="noopener">PDF</a></div>
+      <img class="pub-thumb" src="images/pubs/uc2026.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Heterogeneous urban decarbonization pathways revealed by typological and machine learning frameworks: A global analysis across Annex I cities</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Urban Climate</span>, Vol. 70, 103160, 2026</p>
+        <p class="pub-meta">Published online: <time datetime="2026-09-28">September 28, 2026</time></p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">We combine urban typological clustering with a context-aware FiLMSeq2Seq deep learning framework to project CO₂ emissions for 46,833 cities in Annex I countries through 2050 under Shared Socioeconomic Pathways. Five urban typologies exhibit distinct emission trajectories. Under the Business-As-Usual scenario, 31.5% of the 1,335 sprawling cities show emission growth, while moderate vertical cities contribute a total emission reduction of 798.2 Mt. These findings support strategies tailored to urban typology to realize cities’ decarbonization potential.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.uclim.2026.103160" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Mapping and topic modeling of over 133,000 studies on climate change and cities: Trends, geographical disparities, and future research needs</h3>
-      <p class="pub-meta">Ayyoob Sharifi, Yukai Jin, Prince Donkor Aboagye &middot; <span class="pub-journal">Urban Climate</span>, Vol. 61, 2025</p>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.uclim.2025.102448" target="_blank" rel="noopener">DOI</a></div>
+      <img class="pub-thumb" src="images/pubs/uc2025.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Mapping and topic modeling of over 133,000 studies on climate change and cities: Trends, geographical disparities, and future research needs</h3>
+        <p class="pub-meta">Ayyoob Sharifi, Yukai Jin, Prince Donkor Aboagye &middot; <span class="pub-journal">Urban Climate</span>, Vol. 61, 2025</p>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.uclim.2025.102448" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Machine learning for predicting urban greenhouse gas emissions: A systematic literature review</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Renewable and Sustainable Energy Reviews</span>, Vol. 215, 2025</p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">Greenhouse gases play a crucial role in shaping urban climate patterns and dynamics. Using machine learning methods offers opportunities for predicting greenhouse gas emissions in cities, both now and in the future. Here, we review 75 papers from 2003 to 2023 that utilized machine learning to forecast urban greenhouse gas emissions. We focus on two aspects: the models used and the driving factors of emissions. Across all models, R² range from 0.5231 to 0.9989, MAPE range from 0.3017% to 26.3%. Hybrid and neural network models emerged as the most popular choices. We propose three key recommendations to enhance the accuracy and reliability of future machine learning models: (1) establish criteria for evaluating influential factors and model selection, (2) enhance spatial prediction in machine learning by optimization models, and (3) explore and compare how greenhouse gas prediction models perform across diverse urban settings.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.rser.2025.115625" target="_blank" rel="noopener">DOI</a></div>
+      <img class="pub-thumb" src="images/pubs/rser.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Machine learning for predicting urban greenhouse gas emissions: A systematic literature review</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Renewable and Sustainable Energy Reviews</span>, Vol. 215, 2025</p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">Greenhouse gases play a crucial role in shaping urban climate patterns and dynamics. Using machine learning methods offers opportunities for predicting greenhouse gas emissions in cities, both now and in the future. Here, we review 75 papers from 2003 to 2023 that utilized machine learning to forecast urban greenhouse gas emissions. We focus on two aspects: the models used and the driving factors of emissions. Across all models, R² range from 0.5231 to 0.9989, MAPE range from 0.3017% to 26.3%. Hybrid and neural network models emerged as the most popular choices. We propose three key recommendations to enhance the accuracy and reliability of future machine learning models: (1) establish criteria for evaluating influential factors and model selection, (2) enhance spatial prediction in machine learning by optimization models, and (3) explore and compare how greenhouse gas prediction models perform across diverse urban settings.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.rser.2025.115625" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Analyzing particulate matter characteristics of the subway system: Case study of Guangzhou</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi, Zhisheng Li, Sirui Chen, Shitao Chen, Shanlun Zhao &middot; <span class="pub-journal">Case Studies in Chemical and Environmental Engineering</span>, 2024</p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">This study aims to: (1) evaluate the concentration distribution of particulate matter in the Guangzhou metro system; (2) compare particulate matter concentrations under different conditions, including time, season, location, subway lines, and sampling height; (3) compare the concentrations with existing research and propose future improvement measures. Spatial factors were significantly correlated with particulate matter concentration, and stratification of PM10 was identified at various heights in both carriages and platforms &mdash; the PM10 average concentration at 80cm is 14% higher than at 120cm and 13% higher than at 150cm. We suggest mitigation measures for particulate matter in both carriage and platform environments.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.cscee.2024.100953" target="_blank" rel="noopener">DOI</a></div>
+      <img class="pub-thumb" src="images/pubs/cscee.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Analyzing particulate matter characteristics of the subway system: Case study of Guangzhou</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi, Zhisheng Li, Sirui Chen, Shitao Chen, Shanlun Zhao &middot; <span class="pub-journal">Case Studies in Chemical and Environmental Engineering</span>, 2024</p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">This study aims to: (1) evaluate the concentration distribution of particulate matter in the Guangzhou metro system; (2) compare particulate matter concentrations under different conditions, including time, season, location, subway lines, and sampling height; (3) compare the concentrations with existing research and propose future improvement measures. Spatial factors were significantly correlated with particulate matter concentration, and stratification of PM10 was identified at various heights in both carriages and platforms &mdash; the PM10 average concentration at 80cm is 14% higher than at 120cm and 13% higher than at 150cm. We suggest mitigation measures for particulate matter in both carriage and platform environments.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.cscee.2024.100953" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Carbon emission prediction models: A review</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi, Zhisheng Li, Sirui Chen, Suzhen Zeng, Shanlun Zhao &middot; <span class="pub-journal">Science of The Total Environment</span>, 2024</p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">Amidst growing concerns over the greenhouse effect, establishing effective Carbon Emission Prediction Models (CEPMs) is imperative for climate change mitigation. A review of 147 CEPM studies revealed three predominant functions &mdash; prediction, optimization, and prediction factor selection. Statistical models were the most prevalent (75 instances), followed by neural network models (21.8%), with a consistent rise in neural network usage from 2019 to 2022. A majority of CEPMs incorporated optimized approaches, with 94.4% utilizing metaheuristic models. We summarize the pros and cons of existing models, classify the factors that influence carbon emissions, clarify research objectives in CEPM, and assess model evaluation methods and the spatial/temporal scales of existing research.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.scitotenv.2024.172319" target="_blank" rel="noopener">DOI</a></div>
+      <img class="pub-thumb" src="images/pubs/stoten.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Carbon emission prediction models: A review</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi, Zhisheng Li, Sirui Chen, Suzhen Zeng, Shanlun Zhao &middot; <span class="pub-journal">Science of The Total Environment</span>, 2024</p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">Amidst growing concerns over the greenhouse effect, establishing effective Carbon Emission Prediction Models (CEPMs) is imperative for climate change mitigation. A review of 147 CEPM studies revealed three predominant functions &mdash; prediction, optimization, and prediction factor selection. Statistical models were the most prevalent (75 instances), followed by neural network models (21.8%), with a consistent rise in neural network usage from 2019 to 2022. A majority of CEPMs incorporated optimized approaches, with 94.4% utilizing metaheuristic models. We summarize the pros and cons of existing models, classify the factors that influence carbon emissions, clarify research objectives in CEPM, and assess model evaluation methods and the spatial/temporal scales of existing research.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.scitotenv.2024.172319" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Thermography evaluation of defect characteristics of building envelopes in urban villages in Guangzhou, China</h3>
-      <p class="pub-meta">Zhisheng Li, Yukai Jin, Xiguan Liang, Jiangyi Zeng &middot; <span class="pub-journal">Case Studies in Construction Materials</span>, 2022</p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">In many cities, the building envelope is deteriorating and aging. A 3-day infrared thermography (IRT) experiment was conducted on 5 buildings (11 rooms) in an urban village in Guangzhou, China. Three types of building defects were found: conduction thermal defects, ventilation defects, and moisture. An improved temperature factor framework (ITF) is proposed to evaluate conduction thermal defects. Conduction thermal defects were the most common, occurring 28 times across five residential buildings, mainly at the joints of different walls and structures. Orientation was found to have an important effect on thermal defects, and thermal bridges were more likely to occur on extended floors built on the original building.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.cscm.2022.e01373" target="_blank" rel="noopener">DOI</a></div>
+      <img class="pub-thumb" src="images/pubs/thermo.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Thermography evaluation of defect characteristics of building envelopes in urban villages in Guangzhou, China</h3>
+        <p class="pub-meta">Zhisheng Li, Yukai Jin, Xiguan Liang, Jiangyi Zeng &middot; <span class="pub-journal">Case Studies in Construction Materials</span>, 2022</p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">In many cities, the building envelope is deteriorating and aging. A 3-day infrared thermography (IRT) experiment was conducted on 5 buildings (11 rooms) in an urban village in Guangzhou, China. Three types of building defects were found: conduction thermal defects, ventilation defects, and moisture. An improved temperature factor framework (ITF) is proposed to evaluate conduction thermal defects. Conduction thermal defects were the most common, occurring 28 times across five residential buildings, mainly at the joints of different walls and structures. Orientation was found to have an important effect on thermal defects, and thermal bridges were more likely to occur on extended floors built on the original building.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.cscm.2022.e01373" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
   </section>
 
 </main>
 
-<script src="js/main.js"></script>
+<script src="js/main.js?v=1791710000"></script>
 </body>
 </html>

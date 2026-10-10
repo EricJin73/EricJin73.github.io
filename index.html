@@ -6,27 +6,33 @@
 <title>Yukai Jin</title>
 <meta name="description" content="Yukai Jin — Researcher (Specially Appointed) at Japan's National Institute for Environmental Studies (NIES), using machine learning to study urban emissions and decarbonization.">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=1791710000">
 </head>
 <body>
 
 <header class="site-header">
   <nav class="nav">
-    <a class="nav-brand" href="#top">Yukai Jin</a>
+    <div class="nav-tabs">
+      <a class="nav-tab" data-tab="personal" href="#top">Personal</a>
+      <a class="nav-tab" data-tab="datasets" href="#datasets">Datasets</a>
+    </div>
     <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
-    <ul class="nav-links">
-      <li><a href="#top">Home</a></li>
+    <ul class="nav-links" data-nav="personal">
+      <li><a href="#news">News</a></li>
       <li><a href="#publications">Publications</a></li>
-      <li><a href="#talks">Talks</a></li>
-      <li><a href="#grants">Grants</a></li>
-      <li><a href="#awards">Awards</a></li>
+      <li><a href="#honors">Honors &amp; Grants</a></li>
       <li><a href="#experience">Experience</a></li>
-      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <ul class="nav-links" data-nav="datasets" hidden>
+      <li><a href="#ds-ev-fleet">EV fleet in Europe</a></li>
     </ul>
   </nav>
 </header>
 
 <main class="container" id="top">
+
+<div class="view" id="view-personal" data-view="personal">
 
   <section class="hero">
     <img class="hero-avatar" src="images/avatar.png" alt="Portrait of Yukai Jin">
@@ -40,6 +46,10 @@
         <span class="tag">Climate Modeling</span>
       </div>
       <div class="social-links">
+        <a class="cv-btn" href="files/Yukai_Jin_CV.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae (PDF)" title="Curriculum Vitae (PDF)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="14" y2="17"/></svg>
+          <span>CV</span>
+        </a>
         <a href="mailto:jineric73@gmail.com" aria-label="Email" title="Email">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
         </a>
@@ -48,12 +58,6 @@
         </a>
         <a href="https://scholar.google.com/citations?user=i7jRUpcAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 0 9.5l4.8 3.9a7.2 7.2 0 0 1 14.4 0L24 9.5 12 0z"/><circle cx="12" cy="16" r="6.5"/></svg>
-        </a>
-        <a href="https://github.com/EricJin73/" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-          <svg viewBox="0 0 24 24"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.42.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.68.8.56C20.71 21.39 24 17.08 24 12 24 5.73 18.27.5 12 .5z"/></svg>
-        </a>
-        <a href="https://www.linkedin.com/in/yukai-jin-452b772a0" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
-          <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
         </a>
       </div>
     </div>
@@ -71,26 +75,23 @@
 
     <div class="news-item">
       <div class="news-date">Oct 6, 2026</div>
-      <div class="news-body">
-        <h3>New paper published online in Scientific Data</h3>
-        <p><em>Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011&ndash;2024</em> was published online in <strong>Scientific Data</strong> as an Article in Press. The dataset covers 71,715 municipalities and four passenger vehicle categories. Read the <a href="https://doi.org/10.1038/s41597-026-08445-z" target="_blank" rel="noopener">article</a>.</p>
-      </div>
+      <div class="news-body"><span class="news-tag paper">Paper</span>First-author paper published in <em>Scientific Data</em> <a href="https://doi.org/10.1038/s41597-026-08445-z" target="_blank" rel="noopener" aria-label="Read article">&rarr;</a></div>
     </div>
-
     <div class="news-item">
       <div class="news-date">Oct 6, 2026</div>
-      <div class="news-body">
-        <h3>New paper published online in Environmental Impact Assessment Review</h3>
-        <p><em>Diagnosing systematic overestimation and feature dependencies in data-driven predictions of urban CO&#8322; emissions in China</em> was published online in <strong>Environmental Impact Assessment Review</strong> (Vol. 123, 2027). The study compares 18 machine learning algorithms and identifies systematic overestimation in urban emission predictions. Read the <a href="https://doi.org/10.1016/j.eiar.2026.108770" target="_blank" rel="noopener">article</a>.</p>
-      </div>
+      <div class="news-body"><span class="news-tag paper">Paper</span>First-author paper published in <em>Environmental Impact Assessment Review</em> <a href="https://doi.org/10.1016/j.eiar.2026.108770" target="_blank" rel="noopener" aria-label="Read article">&rarr;</a></div>
     </div>
-
     <div class="news-item">
       <div class="news-date">Sep 28, 2026</div>
-      <div class="news-body">
-        <h3>New paper published in Urban Climate</h3>
-        <p><em>Heterogeneous urban decarbonization pathways revealed by typological and machine learning frameworks: A global analysis across Annex I cities</em> was published in <strong>Urban Climate</strong> (Vol. 70, 2026). We project emissions for 46,833 cities through 2050 and identify distinct decarbonization pathways across five urban typologies. Read the <a href="https://doi.org/10.1016/j.uclim.2026.103160" target="_blank" rel="noopener">article</a>.</p>
-      </div>
+      <div class="news-body"><span class="news-tag paper">Paper</span>First-author paper published in <em>Urban Climate</em> <a href="https://doi.org/10.1016/j.uclim.2026.103160" target="_blank" rel="noopener" aria-label="Read article">&rarr;</a></div>
+    </div>
+    <div class="news-item">
+      <div class="news-date">Sep 18, 2026</div>
+      <div class="news-body"><span class="news-tag milestone">Milestone</span>Received my PhD from Hiroshima University</div>
+    </div>
+    <div class="news-item">
+      <div class="news-date">Sep 18, 2026</div>
+      <div class="news-body"><span class="news-tag award">Award</span>HU Student Award, Hiroshima University</div>
     </div>
 
   </section>
@@ -102,47 +103,52 @@
     </div>
 
     <div class="pub-item">
-      <h3>Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011–2024</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Scientific Data</span>, 2026, Article in Press</p>
-      <p class="pub-meta">Published online: <time datetime="2026-10-06">October 6, 2026</time></p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">We present a longitudinal dataset of passenger vehicle fleet composition for 71,715 Local Administrative Units across 14 European countries over 2011–2024. An XGBoost-based spatial prediction model allocates official national vehicle statistics to municipalities using GDP per capita, population, and road-masked nighttime light intensity. The dataset distinguishes battery electric, plug-in hybrid, fuel-cell electric, and other vehicles. Independent validation using Eurostat regional data and municipal data from Norway and Sweden yields R² values of 0.82–0.98, supporting comparative analysis of electric vehicle adoption and spatial disparities.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1038/s41597-026-08445-z" target="_blank" rel="noopener">DOI</a><a href="papers/jin-sharifi-2026-european-vehicle-fleets.pdf" target="_blank" rel="noopener">PDF</a></div>
+      <img class="pub-thumb" src="images/pubs/scidata.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011–2024</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Scientific Data</span>, 2026, Article in Press</p>
+        <p class="pub-meta">Published online: <time datetime="2026-10-06">October 6, 2026</time></p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">We present a longitudinal dataset of passenger vehicle fleet composition for 71,715 Local Administrative Units across 14 European countries over 2011–2024. An XGBoost-based spatial prediction model allocates official national vehicle statistics to municipalities using GDP per capita, population, and road-masked nighttime light intensity. The dataset distinguishes battery electric, plug-in hybrid, fuel-cell electric, and other vehicles. Independent validation using Eurostat regional data and municipal data from Norway and Sweden yields R² values of 0.82–0.98, supporting comparative analysis of electric vehicle adoption and spatial disparities.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1038/s41597-026-08445-z" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Diagnosing systematic overestimation and feature dependencies in data-driven predictions of urban CO₂ emissions in China</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Environmental Impact Assessment Review</span>, Vol. 123, 108770, 2027</p>
-      <p class="pub-meta">Published online: <time datetime="2026-10-06">October 6, 2026</time></p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">This study evaluates 18 machine learning algorithms using county-level CO₂ emissions in China from 2001 to 2020 and 41 socioeconomic, environmental, and energy features. Nearly all models systematically overestimate emissions across space and time. Feature-selection comparisons and bootstrap uncertainty analysis show that aggressive dimensionality reduction often harms performance, while retaining diverse features helps capture the complexity of urban emissions. CatBoost and LightGBM perform best, highlighting the need to diagnose and correct systematic prediction biases for reliable urban carbon management.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.eiar.2026.108770" target="_blank" rel="noopener">DOI</a><a href="papers/jin-sharifi-2027-urban-emissions-prediction.pdf" target="_blank" rel="noopener">PDF</a></div>
+      <img class="pub-thumb" src="images/pubs/eiar.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Diagnosing systematic overestimation and feature dependencies in data-driven predictions of urban CO₂ emissions in China</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Environmental Impact Assessment Review</span>, Vol. 123, 108770, 2027</p>
+        <p class="pub-meta">Published online: <time datetime="2026-10-06">October 6, 2026</time></p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">This study evaluates 18 machine learning algorithms using county-level CO₂ emissions in China from 2001 to 2020 and 41 socioeconomic, environmental, and energy features. Nearly all models systematically overestimate emissions across space and time. Feature-selection comparisons and bootstrap uncertainty analysis show that aggressive dimensionality reduction often harms performance, while retaining diverse features helps capture the complexity of urban emissions. CatBoost and LightGBM perform best, highlighting the need to diagnose and correct systematic prediction biases for reliable urban carbon management.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.eiar.2026.108770" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
 
     <div class="pub-item">
-      <h3>Heterogeneous urban decarbonization pathways revealed by typological and machine learning frameworks: A global analysis across Annex I cities</h3>
-      <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Urban Climate</span>, Vol. 70, 103160, 2026</p>
-      <p class="pub-meta">Published online: <time datetime="2026-09-28">September 28, 2026</time></p>
-      <details class="pub-details">
-        <summary>Abstract</summary>
-        <p class="pub-abstract">We combine urban typological clustering with a context-aware FiLMSeq2Seq deep learning framework to project CO₂ emissions for 46,833 cities in Annex I countries through 2050 under Shared Socioeconomic Pathways. Five urban typologies exhibit distinct emission trajectories. Under the Business-As-Usual scenario, 31.5% of the 1,335 sprawling cities show emission growth, while moderate vertical cities contribute a total emission reduction of 798.2 Mt. These findings support strategies tailored to urban typology to realize cities’ decarbonization potential.</p>
-      </details>
-      <div class="pub-links"><a href="https://doi.org/10.1016/j.uclim.2026.103160" target="_blank" rel="noopener">DOI</a><a href="papers/jin-sharifi-2026-urban-decarbonization.pdf" target="_blank" rel="noopener">PDF</a></div>
+      <img class="pub-thumb" src="images/pubs/uc2026.jpg" alt="" loading="lazy">
+      <div class="pub-main">
+        <h3>Heterogeneous urban decarbonization pathways revealed by typological and machine learning frameworks: A global analysis across Annex I cities</h3>
+        <p class="pub-meta">Yukai Jin, Ayyoob Sharifi &middot; <span class="pub-journal">Urban Climate</span>, Vol. 70, 103160, 2026</p>
+        <p class="pub-meta">Published online: <time datetime="2026-09-28">September 28, 2026</time></p>
+        <details class="pub-details">
+          <summary>Abstract</summary>
+          <p class="pub-abstract">We combine urban typological clustering with a context-aware FiLMSeq2Seq deep learning framework to project CO₂ emissions for 46,833 cities in Annex I countries through 2050 under Shared Socioeconomic Pathways. Five urban typologies exhibit distinct emission trajectories. Under the Business-As-Usual scenario, 31.5% of the 1,335 sprawling cities show emission growth, while moderate vertical cities contribute a total emission reduction of 798.2 Mt. These findings support strategies tailored to urban typology to realize cities’ decarbonization potential.</p>
+        </details>
+        <div class="pub-links"><a href="https://doi.org/10.1016/j.uclim.2026.103160" target="_blank" rel="noopener">DOI</a></div>
+      </div>
     </div>
-  </section>
 
-  <section class="bordered" id="talks">
-    <div class="section-header">
-      <h2>Talks</h2>
-    </div>
+    <h3 class="subhead">Talks</h3>
 
     <div class="pub-item">
       <h3>Predicting Electric Vehicles Emission Reduction Performance in Nordic Cities</h3>
-      <p class="pub-meta">5th The Network for Education and Research on Peace and Sustainability (NERPS 2026), Tokyo, Japan &middot; 2026</p>
+      <p class="pub-meta">5th The Network for Education and Research on Peace and Sustainability (NERPS 2026), Tokyo, Japan &middot; Mar 4, 2026</p>
     </div>
 
     <div class="pub-item">
@@ -151,10 +157,12 @@
     </div>
   </section>
 
-  <section class="bordered" id="grants">
+  <section class="bordered" id="honors">
     <div class="section-header">
-      <h2>Grants</h2>
+      <h2>Honors &amp; Grants</h2>
     </div>
+
+    <h3 class="subhead">Grants</h3>
 
     <div class="pub-item">
       <h3>Predicting CO&#8322; Emission Reductions of Electric Vehicles in European Cities</h3>
@@ -173,16 +181,31 @@
       <p class="pub-meta">Yukai Jin &middot; <span class="pub-journal">SmaSo-X Challenge Project Research Grant, Hiroshima University, Japan</span> &middot; 2023</p>
       <p class="pub-meta">Amount: JPY&yen; 200,000</p>
     </div>
-  </section>
 
-  <section class="bordered" id="awards">
-    <div class="section-header">
-      <h2>Awards</h2>
+    <h3 class="subhead">Awards</h3>
+
+    <div class="entry">
+      <div class="entry-date">Sep 2026</div>
+      <div class="entry-body">
+        <h3>HU Student Award</h3>
+        <p class="place">Hiroshima University, Japan</p>
+      </div>
     </div>
 
-    <div class="pub-item">
-      <h3>HU Student Award</h3>
-      <p class="pub-meta"><span class="pub-journal">Hiroshima University, Japan</span> &middot; Jul 2026</p>
+    <div class="entry">
+      <div class="entry-date">Dec 2025</div>
+      <div class="entry-body">
+        <h3>Hiroshima University Excellent Student Scholarship</h3>
+        <p class="place">Hiroshima University, Japan</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-date">Apr 2025</div>
+      <div class="entry-body">
+        <h3>HU Spring Award</h3>
+        <p class="place">Hiroshima University, Japan</p>
+      </div>
     </div>
   </section>
 
@@ -191,65 +214,157 @@
       <h2>Experience</h2>
     </div>
 
-    <h3 style="font-size:1.05rem;">Work Experience</h3>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="date">Nov 2026 - Present</div>
-        <h3>Researcher (Specially Appointed)</h3>
-        <p class="place">National Institute for Environmental Studies (NIES), Japan</p>
+    <h3 class="subhead">Work Experience</h3>
+    <div class="entry">
+      <div class="entry-date">Nov 2026 - Present</div>
+      <div class="entry-body">
+          <h3>Researcher (Specially Appointed)</h3>
+          <p class="place">National Institute for Environmental Studies (NIES), Japan</p>
       </div>
-      <div class="timeline-item">
-        <div class="date">Jan 2025 &ndash; Mar 2025</div>
-        <h3>Visiting Assistant Research</h3>
-        <p class="place"><a href="https://www.yale.edu/" target="_blank" rel="noopener">Yale University</a></p>
-        <ul>
-          <li>Supervised by <a href="https://environment.yale.edu/directory/faculty/karen-seto" target="_blank" rel="noopener">Prof. Karen Seto</a>.</li>
-        </ul>
+    </div>
+    <div class="entry">
+      <div class="entry-date">Jan 2025 &ndash; Mar 2025</div>
+      <div class="entry-body">
+          <h3>Visiting Assistant Research</h3>
+          <p class="place"><a href="https://www.yale.edu/" target="_blank" rel="noopener">Yale University</a></p>
+          <ul>
+            <li>Supervised by <a href="https://environment.yale.edu/directory/faculty/karen-seto" target="_blank" rel="noopener">Prof. Karen Seto</a>.</li>
+          </ul>
       </div>
     </div>
 
-    <h3 style="font-size:1.05rem; margin-top:1.8rem;">Education</h3>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="date">Oct 2023 &ndash; Sep 2026</div>
-        <h3>Doctor of Philosophy</h3>
-        <p class="place">Hiroshima University</p>
-        <ul>
-          <li>Supervised by <a href="https://seeds.office.hiroshima-u.ac.jp/profile/en.a63149f0ebc98d0e520e17560c007669.html" target="_blank" rel="noopener">Prof. Ayyoob Sharifi</a>.</li>
-        </ul>
+    <h3 class="subhead">Education</h3>
+    <div class="entry">
+      <div class="entry-date">Oct 2023 &ndash; Sep 2026</div>
+      <div class="entry-body">
+          <h3>Doctor of Philosophy</h3>
+          <p class="place">Hiroshima University</p>
+          <ul>
+            <li>Supervised by <a href="https://seeds.office.hiroshima-u.ac.jp/profile/en.a63149f0ebc98d0e520e17560c007669.html" target="_blank" rel="noopener">Prof. Ayyoob Sharifi</a>.</li>
+          </ul>
       </div>
-      <div class="timeline-item">
-        <div class="date">Sep 2020 &ndash; Jun 2023</div>
-        <h3>Master of Engineering</h3>
-        <p class="place">Guangdong University of Technology</p>
+    </div>
+    <div class="entry">
+      <div class="entry-date">Sep 2020 &ndash; Jun 2023</div>
+      <div class="entry-body">
+          <h3>Master of Engineering</h3>
+          <p class="place">Guangdong University of Technology</p>
       </div>
-      <div class="timeline-item">
-        <div class="date">Sep 2016 &ndash; Jun 2020</div>
-        <h3>Bachelor of Engineering</h3>
-        <p class="place">Jiangxi Agricultural University</p>
+    </div>
+    <div class="entry">
+      <div class="entry-date">Sep 2016 &ndash; Jun 2020</div>
+      <div class="entry-body">
+          <h3>Bachelor of Engineering</h3>
+          <p class="place">Jiangxi Agricultural University</p>
+      </div>
+    </div>
+
+    <h3 class="subhead">Teaching</h3>
+
+    <div class="entry">
+      <div class="entry-date">2025</div>
+      <div class="entry-body">
+        <h3>Urban Policy</h3>
+        <p class="place">Teaching Assistant &middot; Hiroshima University</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-date">Oct 2024</div>
+      <div class="entry-body">
+        <h3>Public Administration and Management</h3>
+        <p class="place">Teaching Assistant &middot; Hiroshima University</p>
+        <div class="pub-links"><a href="https://momiji.hiroshima-u.ac.jp/syllabusHtml_en/2025_E50107_WMH01501_en.html" target="_blank" rel="noopener">Syllabus &rarr;</a></div>
       </div>
     </div>
   </section>
 
-  <section class="bordered" id="teaching">
+  <section class="bordered" id="contact">
     <div class="section-header">
-      <h2>Teaching</h2>
+      <h2>Contact</h2>
     </div>
 
-    <div class="card">
-      <h3 style="margin:0 0 0.3rem;">Urban Policy</h3>
-      <p class="pub-meta">Teaching Assistant &middot; Hiroshima University &middot; 2025</p>
-    </div>
-
-    <div class="card">
-      <h3 style="margin:0 0 0.3rem;">Public Administration and Management</h3>
-      <p class="pub-meta">Teaching Assistant &middot; Hiroshima University &middot; Oct 2024</p>
-      <div class="pub-links"><a href="https://momiji.hiroshima-u.ac.jp/syllabusHtml_en/2025_E50107_WMH01501_en.html" target="_blank" rel="noopener">Syllabus &rarr;</a></div>
+    <div class="entry">
+      <div class="entry-date">Email</div>
+      <div class="entry-body"><a href="mailto:jineric73@gmail.com">jineric73@gmail.com</a></div>
     </div>
   </section>
+
+</div>
+
+  <div class="view" id="view-datasets" data-view="datasets" hidden>
+
+  <section id="datasets" class="ds-head">
+    <h2 class="page-title">Datasets</h2>
+    <p class="page-intro">Open datasets from my research.</p>
+  </section>
+
+  <section class="bordered ds-item" id="ds-ev-fleet">
+    <div class="ds-title">
+      <h3>European Municipal EV Fleet, 2011&ndash;2024</h3>
+      <p class="ds-byline">Jin &amp; Sharifi &middot; <span class="pub-journal">Scientific Data</span>, 2026</p>
+    </div>
+
+    <div class="ds-actions">
+      <a class="ds-btn primary" href="https://doi.org/10.6084/m9.figshare.32241864" target="_blank" rel="noopener">Download</a>
+      <a class="ds-btn" href="https://doi.org/10.1038/s41597-026-08445-z" target="_blank" rel="noopener">Paper</a>
+      <button class="ds-btn" type="button" aria-expanded="false" aria-controls="ds-ev-cite" data-cite-toggle>Cite</button>
+    </div>
+
+    <div class="ds-cite" id="ds-ev-cite" hidden>
+      <div class="ds-cite-bar">
+        <div class="ds-cite-tabs" role="tablist">
+          <button type="button" role="tab" aria-selected="true" data-fmt="apa">APA</button>
+          <button type="button" role="tab" aria-selected="false" data-fmt="bib">BibTeX</button>
+        </div>
+        <button type="button" class="ds-copy" data-copy>Copy</button>
+      </div>
+<pre data-fmt="apa">Jin, Y., &amp; Sharifi, A. (2026). Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011&ndash;2024. Scientific Data. https://doi.org/10.1038/s41597-026-08445-z
+
+Dataset: https://doi.org/10.6084/m9.figshare.32241864</pre>
+<pre data-fmt="bib" hidden>@article{jin2026evfleet,
+  author  = {Jin, Yukai and Sharifi, Ayyoob},
+  title   = {Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011--2024},
+  journal = {Scientific Data},
+  year    = {2026},
+  doi     = {10.1038/s41597-026-08445-z}
+}
+
+@misc{jin2026evfleetdata,
+  author    = {Jin, Yukai and Sharifi, Ayyoob},
+  title     = {Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011--2024},
+  publisher = {Figshare},
+  year      = {2026},
+  doi       = {10.6084/m9.figshare.32241864}
+}</pre>
+    </div>
+
+    <div class="ev-map" id="ev-map">
+      <div class="ev-map-side">
+        <div class="ev-map-stat">
+          <span class="ev-map-year" id="ev-map-year">2024</span>
+          <b id="ev-map-share">5.3%</b>
+          <span>of passenger cars are electric</span>
+        </div>
+        <div class="ev-map-time">
+          <button type="button" class="ev-map-play" id="ev-map-play" aria-label="Play" aria-pressed="false"></button>
+          <input type="range" id="ev-map-slider" step="1" aria-label="Year">
+        </div>
+        <div class="ev-map-legend">
+          <span class="ev-map-legend-title">EV share by municipality</span>
+          <div class="ev-map-ramp"></div>
+          <div class="ev-map-ticks"><span style="left:0">0.1%</span><span style="left:37%">1%</span><span style="left:74%">10%</span><span style="left:100%">50%</span></div>
+        </div>
+      </div>
+      <img class="ev-map-img" id="ev-map-img" alt="" width="1200" height="1752" loading="lazy">
+    </div>
+  </section>
+
+  </div>
 
 </main>
 
-<script src="js/main.js"></script>
+<script src="js/main.js?v=1791710000"></script>
+<script src="js/datasets.js?v=1791710000"></script>
 </body>
 </html>
