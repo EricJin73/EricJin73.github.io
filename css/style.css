@@ -455,10 +455,6 @@ h2.page-title {
   width: 260px;
   height: 175px;
   object-fit: contain;
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 3px;
 }
 
 .pub-main {
