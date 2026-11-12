@@ -59,10 +59,6 @@ h1, h2, h3 {
   color: var(--text);
 }
 
-em, i {
-  font-style: normal;
-}
-
 a {
   color: var(--accent);
   text-decoration: none;
@@ -414,9 +410,31 @@ h2.page-title {
   font-size: var(--fs-md);
 }
 
-/* Category label as quiet meta text, no colored pills */
+/* Category label as colored pill */
 .news-tag {
-  display: none;
+  --c: var(--accent);
+  display: inline-block;
+  margin-right: 0.6rem;
+  padding: 0.05rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.5;
+  vertical-align: 0.08em;
+  color: var(--c);
+  background: color-mix(in srgb, var(--c) 13%, transparent);
+}
+
+.news-tag.paper { --c: #2f6fd1; }
+.news-tag.award { --c: #b7791f; }
+.news-tag.talk { --c: #0f8f72; }
+.news-tag.milestone { --c: #7c4dbd; }
+
+@media (prefers-color-scheme: dark) {
+  .news-tag.paper { --c: #7fb0ff; }
+  .news-tag.award { --c: #f0c060; }
+  .news-tag.talk { --c: #4cd1ae; }
+  .news-tag.milestone { --c: #bb9bf0; }
 }
 
 @media (max-width: 480px) {
@@ -499,6 +517,12 @@ h2.page-title {
 
 /* Journal / venue: the one piece of meta that should stand out */
 .pub-journal {
+  color: var(--text);
+  font-style: italic;
+}
+
+/* Grant funder: highlighted like a venue, but upright (not a journal) */
+.pub-funder {
   color: var(--text);
 }
 
