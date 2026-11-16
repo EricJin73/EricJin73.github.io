@@ -4,7 +4,11 @@
   const root = document.getElementById("ev-map");
   if (!root) return;
 
-  const BASE = "data/ev_map/";
+  const BASE = root.dataset.base || "data/ev_map/";
+  const ja = document.documentElement.lang === "ja";
+  const T = ja
+    ? { alt: (y) => y + "年の市町村別電気自動車比率の地図", play: "再生", pause: "一時停止" }
+    : { alt: (y) => "Map of electric vehicle share by municipality in " + y, play: "Play", pause: "Pause" };
   const SHARE = { 2011: 0.00023, 2012: 0.00037, 2013: 0.00064, 2014: 0.00105, 2015: 0.00191, 2016: 0.00278, 2017: 0.00391,
     2018: 0.00538, 2019: 0.00748, 2020: 0.01336, 2021: 0.02266, 2022: 0.03206, 2023: 0.0438, 2024: 0.05336 };
   const years = Object.keys(SHARE).map(Number);
@@ -24,7 +28,7 @@
     elYear.textContent = y;
     elShare.textContent = (SHARE[y] * 100).toFixed(SHARE[y] < 0.01 ? 2 : 1) + "%";
     img.src = src(y);
-    img.alt = "Map of electric vehicle share by municipality in " + y;
+    img.alt = T.alt(y);
   }
 
   function preload() {
@@ -38,14 +42,14 @@
     clearInterval(timer);
     timer = null;
     play.setAttribute("aria-pressed", "false");
-    play.setAttribute("aria-label", "Play");
+    play.setAttribute("aria-label", T.play);
   }
 
   function start() {
     preload();
     if (year === years[years.length - 1]) show(years[0]);
     play.setAttribute("aria-pressed", "true");
-    play.setAttribute("aria-label", "Pause");
+    play.setAttribute("aria-label", T.pause);
     timer = setInterval(() => {
       if (year >= years[years.length - 1]) return stop();
       show(year + 1);
@@ -62,6 +66,7 @@
 })();
 
 /* Citation panels: toggle, APA/BibTeX switch, copy to clipboard. */
+const COPY_LABELS = document.documentElement.lang === "ja" ? ["コピー", "コピーしました"] : ["Copy", "Copied"];
 document.querySelectorAll("[data-cite-toggle]").forEach((btn) => {
   const panel = document.getElementById(btn.getAttribute("aria-controls"));
   if (!panel) return;
@@ -79,8 +84,8 @@ document.querySelectorAll("[data-cite-toggle]").forEach((btn) => {
   copy.addEventListener("click", () => {
     const text = [...pres].find((p) => !p.hidden).textContent;
     navigator.clipboard.writeText(text).then(() => {
-      copy.textContent = "Copied";
-      setTimeout(() => (copy.textContent = "Copy"), 1500);
+      copy.textContent = COPY_LABELS[1];
+      setTimeout(() => (copy.textContent = COPY_LABELS[0]), 1500);
     });
   });
 });

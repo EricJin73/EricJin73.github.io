@@ -10,6 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   }
 
+  // Language switch: carry the current section (hash) over to the other language.
+  document.querySelectorAll(".nav-lang a").forEach((a) =>
+    a.addEventListener("click", () => {
+      if (location.hash) a.href = a.href.split("#")[0] + location.hash;
+    })
+  );
+
   // Top-level views (Personal / Datasets) living on the same page.
   // The hash decides the view: the view that contains the targeted id is shown.
   const views = document.querySelectorAll(".view");
